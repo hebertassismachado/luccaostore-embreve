@@ -1,0 +1,76 @@
+@font-face {
+  font-family: StretchPro;
+  src: url(assets/fonts/StretchPro.otf);
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(assets/fonts/Montserrat-ExtraLight.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+#logo_luccao {
+display: flex;
+justify-content: center;
+}
+
+#logo_luccao img {
+margin: 25px;
+max-width: 75x;
+max-height: 75px;
+width: auto;
+height: auto;
+}
+
+#em_breve {
+  margin-top: 50px;
+}
+
+#em_breve h1 {
+  font-family: StretchPro;
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  text-align: center;
+}
+
+#em_breve h2 {
+font-family: 'Montserrat';
+color: white;
+font-style: italic;
+font-weight: 100;
+font-size: 60px;
+line-height: 50px;
+text-align: center;
+}
+
+#logos {
+margin-top: 30px;  
+display: flex;
+justify-content: center;
+}
+
+#logos #fb img {
+max-width: 75x;
+max-height: 75px;
+width: auto;
+height: auto;
+}
+
+#logos #insta img {
+
+  max-width: 75x;
+  max-height: 75px;
+  width: auto;
+  height: auto;
+  }
+
+body {
+  background-image: url(assets/img/backgroud.png);
+}
